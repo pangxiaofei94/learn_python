@@ -5,6 +5,6 @@ import re
 
 s = re.match(r'^\d{3}\-\d{3,8}$', '010 - 12345')
 if s:
-	print('匹配成功')
+	print('匹配成功') 
 else:
 	print('匹配失败') 
